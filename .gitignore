@@ -1,0 +1,8 @@
+__pycache__/
+myenv/
+*.pyc
+*.pyo
+*.pyd
+.vscode/  
+#.idea/    # If using JetBrains PyCharm, ignore settings
+#.DS_Store # For macOS users, to ignore system files

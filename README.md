@@ -80,21 +80,17 @@ Run the following commands from the terminal within your project directory:
 
 ## Start the Pomodoro Timer
 To start the timer with the default YouTube audio link:
-```python cli.py start
-```
+```python cli.py start```
+
 Optionally, you can specify a YouTube URL directly:
-```python cli.py start --youtube_url "https://www.youtube.com/watch?v=another_example"
-```
+
+```python cli.py start --youtube_url "https://www.youtube.com/watch?v=another_example"```
 ## Pause the Current Session
 To pause the current Pomodoro session:
-```
-python cli.py pause
-```
+```python cli.py pause```
 ## Stop the Current Session
 To stop the current Pomodoro session:
-```
-python cli.py stop
-```
+```python cli.py stop```
 ## Contributing
 Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 

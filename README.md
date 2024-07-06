@@ -56,3 +56,50 @@ youtube_url = https://www.youtube.com/watch?v=example_url
 work_time = 25  # Duration of work sessions in minutes
 short_break = 5  # Duration of short breaks in minutes
 long_break = 15  # Duration of long breaks in minutes
+
+
+
+
+# Usage
+Run the following commands from the terminal within your project directory:
+
+## Start the Pomodoro Timer
+
+To start the timer with the default YouTube audio link:
+
+```bash
+python cli.py start
+
+
+## Configure Your Application (Optional)
+Modify config.ini to set your preferred YouTube URL and timer settings.
+
+## Usage
+Run the following commands from the terminal within your project directory:
+
+## Start the Pomodoro Timer
+To start the timer with the default YouTube audio link:
+
+python cli.py start
+
+Optionally, you can specify a YouTube URL directly:
+python cli.py start --youtube_url "https://www.youtube.com/watch?v=another_example"
+
+## Pause the Current Session
+To pause the current Pomodoro session:
+
+python cli.py pause
+
+## Stop the Current Session
+To stop the current Pomodoro session:
+
+python cli.py stop
+
+## Contributing
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
